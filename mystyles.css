@@ -45,15 +45,20 @@ height: 100%;
     margin-bottom: 20px;
     background: #A9A9A9;
     position: relative;
-    animation: text 3s 1;
+    animation: text 2s 1;
   
+  }
+  .myimage1{
+    width: 30%;
+    height: 30%;
+    animation: text 2s 1;
   }
   .mytext2{
     font-size: 30px;
       color: black;
       font-weight: bold;
       font-family: cursive;
-      animation: text 3s 1;
+      animation: text 2s 1;
   }
   
   .mytext3{
@@ -62,6 +67,7 @@ height: 100%;
       font-weight: bold;
       font-family: Comic Sans MS;
   }
+  
   @keyframes text {
     0%{
       color: black;
