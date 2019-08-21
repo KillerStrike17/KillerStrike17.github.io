@@ -85,7 +85,13 @@ height: 100%;
   
     }
   }
-  
+
+  #particles-js{
+    background-image: url('backgroundimage1.jpg');
+    width: auto;
+    height: auto;
+    
+}
   /*
   a {
     color: red;

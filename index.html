@@ -4,13 +4,19 @@
   <title>Shubham Agnihotri</title>
   <meta charset="utf-8">
   <link href="mystyles.css" type="text/css" rel ="stylesheet"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="bootstrap.min.css">
   <script src="jquery.min.js"></script>
   <script src="bootstrap.min.js"></script>
-
+  <!--
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+-->
 </head>
 <body>
+<div id = "particles-js">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid" id = "mynavbar_css">
     <div class="navbar-header">
@@ -47,14 +53,25 @@
   </div>
 </nav>
 
-<div class="container">
-   <span class="mytext1">Hello, World! </span>
-  <!-- <img src="img_nature.jpg" alt="Nature" class="myimage1" width="60" height="40"> -->
-  <span class="mytext2"> This is Shubham Agnihotri</span>
-  <span class="mytext3"> Developer #Machine Learning Enthusiast# Engineer</span>
 
+  <div class="container">
+  
+    <span class="mytext1">Hello, World! </span>
+    <!-- <img src="img_nature.jpg" alt="Nature" class="myimage1" width="60" height="40"> -->
+    <span class="mytext2"> This is Shubham Agnihotri</span>
+    <span class="mytext3"> Developer #Machine Learning Enthusiast# Engineer</span>
+
+  </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
 
 </body>
 </html>
