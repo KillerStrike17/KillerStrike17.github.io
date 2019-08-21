@@ -53,6 +53,14 @@ height: 100%;
       color: black;
       font-weight: bold;
       font-family: cursive;
+      animation: text 3s 1;
+  }
+  
+  .mytext3{
+    font-size: 30px;
+      color: black;
+      font-weight: bold;
+      font-family: Comic Sans MS;
   }
   @keyframes text {
     0%{
