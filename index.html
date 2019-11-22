@@ -17,6 +17,14 @@
 </head>
 <body>
 <div id = "particles-js">
+<script src="particles.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid" id = "mynavbar_css">
     <div class="navbar-header">
@@ -64,14 +72,7 @@
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-    <script>
-        particlesJS.load('particles-js', 'particles.json',
-        function(){
-            console.log('particles.json loaded...')
-        })
-    </script>
 
 </body>
 </html>
