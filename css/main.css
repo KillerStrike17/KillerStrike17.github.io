@@ -782,7 +782,7 @@ font-style: italic; } html, body { height: 100%; } .page-center {
 -ms-flex-align: center; -webkit-align-items: center; -webkit-box-align:
 center; align-items: center; display: -ms-flexbox; display: -webkit-flex;
 display: flex; margin: 0 auto; min-height: 100%; } .avatar { background: #333;
-display: inline-block; height: 100px; width: 100px; } .avatar img { opacity:
+display: inline-block; height: 125px; width: 125px; } .avatar img { opacity:
 1; transition: opacity ease-in-out .25s; } .avatar img:hover { opacity: .9;
 transition: opacity ease-in-out .25s; } /* Books */ .author-name {
 margin-bottom: .25rem; }
